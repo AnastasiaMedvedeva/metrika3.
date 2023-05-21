@@ -1,0 +1,311 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  width: 1400px;
+  margin: 0px auto;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Manrope', sans-serif;
+  box-sizing: border-box;
+}
+
+.nav-section {
+  width: 1149px;
+  height: 21px;
+  display: inline-block;
+  margin-bottom: 70px;
+  margin-top: 33px;
+}
+
+.img-logo {
+  display: block;
+  margin-right: 558px;
+  width: 127px;
+  height: 21px;
+}
+
+
+.nav {
+  display: block;
+  margin-left: 0px;
+  float: right;
+}
+
+.nav__link {
+  margin-right: 60px;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  color: #7d7b7b;
+  border-bottom: 1px solid rgb(125, 123, 123);
+}
+
+.nav__link:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+.wrapper {
+  display: block;
+  width: 1400px;
+  margin: 0px  auto;
+}
+.container {
+  margin: 0px 125px;
+}
+
+h1, h2,h3,p, a {
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 41px;
+  color: #fff;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 60px;
+  color: #121212;
+}
+
+h2 {
+  margin-bottom: 30px;
+  line-height:25px;
+  font-size: 18px;
+  color:#121212;
+}
+
+.description {
+  position: absolute;
+  width: 430px;
+  height: 81px;
+  left: 40px;
+  bottom: 40px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+}
+
+.background-image-wrapper {
+  position: relative;
+  width: 1150px;
+  height: 500px;
+  background-image: url('../resources/first-image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-description {
+  margin-bottom: 30px;
+  width: 1048px;
+  height: 366px;
+  font-size: 45px;
+  line-height: 61px; 
+  color: #121212;
+  
+}
+
+.services-button {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 150px;
+  text-align: center;
+  font-size: 20px;
+  width: 255px;
+  height: 67px;
+  line-height: 67px;
+  color: white;
+  background-color: #AD1818;
+  border-radius: 5px;
+}
+
+.project {
+  margin-bottom: 90px;
+}
+
+.project__image {
+  margin-bottom: 15px;
+  width: 1150px;
+  height: 450px;
+}
+
+.project__description {
+  margin-bottom: 15px;
+  height: 41px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.project__details {
+  width: 127px;
+  height: 27px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #AD1818;
+  cursor: pointer;
+}
+
+.project-navigation {
+  display: block;
+  width: 1150px;
+  height: 153px;
+  padding: 56px 410px;
+  box-sizing: border-box;
+  border: 1px solid #AD1818;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: #AD1818;
+}
+
+.project-navigation:hover {
+background-color: #AD1818;
+color: #ffffff;
+}
+
+.background-black {
+  box-sizing: border-box;
+  height: 1844px;
+  width: 1400px;
+  background-color: #121212;
+  padding-top: 150px;
+}
+
+.service {
+  margin-bottom: 60px;
+  }
+
+.services-main {
+  color: #fff;
+}
+.service__image {
+  margin-bottom: 15px;
+  width: 1150px;
+  height: 270px;
+}
+.service:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+.bg-image-example {
+  margin-bottom: 151px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-image: url(../resources/bg-example.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1400px;
+  height: 717px;
+}
+.description-example {
+  position: absolute;
+  top: 575px;
+  left:125px;
+  width: 443px;
+  height: 82px;
+}
+
+.contacts-main {
+  margin-left: 125px;
+  margin-bottom: 160px;
+  box-sizing: border-box;
+  width: 533px;
+  height: 253px;
+}
+.contacts-main:before {
+  margin-bottom: 12px;
+  display: block;
+  height: 22px;
+  content: url('../resources/phone-iphone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.contacts {
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.number-mail {
+  font-size: 60px;
+  line-height: 60px;
+  
+}
+.number,.mail {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 472px;
+  height: 60px;
+  text-decoration: none;
+  color: #121212;
+}
+.number:hover {
+  opacity: 0.5;
+  color: #7d7b7b;
+  border-bottom: 1px solid rgb(125, 123, 123);
+}
+.mail:hover {
+  opacity: 0.5;
+  color: #7d7b7b;
+  border-bottom: 1px solid rgb(125, 123, 123);
+}
+
+.number {
+  margin-bottom: 30px;
+}
+
+.background-footer-wrapper {
+  padding-top: 60px;
+  box-sizing: border-box;
+  height: 230px;
+  background-color: #121212;
+}
+
+.nav-footer {
+  margin-bottom: 87px;
+  text-align:center;
+}
+.nav-footer__link {
+  margin-right: 53px;
+  vertical-align:auto;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+.nav-footer__link:hover {
+  color: #7d7b7b;
+}
+
+.nav-footer__link:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+.name-project {
+  margin-bottom: 30px;
+  text-align: center;
+  height: 27px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+}
